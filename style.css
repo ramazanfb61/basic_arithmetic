@@ -1,0 +1,54 @@
+#num1 {
+  background-color: red;
+  margin-top: 150px;
+}
+#num2 {
+  background-color: blue;
+}
+#cevap {
+  background-color: black;
+}
+#num1,
+#num2,
+#cevap,
+#in {
+  width: 200px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 550px;
+  border: 1px solid black;
+}
+#in {
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: yellow;
+  height: 30px;
+  color: red;
+  font-size: 24px;
+  outline: none;
+}
+#btn {
+  margin-left: 550px;
+  margin-top: 30px;
+  background-color: pink;
+  color: red;
+  height: 30px;
+  width: 200px;
+  border: 1px black solid;
+  border-radius: 20px;
+  font-size: 22px;
+}
+::placeholder {
+  color: red;
+  font-weight: 500;
+  font-size: 1em;
+  opacity: 0.5;
+}
+#btn:active {
+  border: 2px solid black;
+}
+#btn:hover {
+  background-color: yellow;
+}
